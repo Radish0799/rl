@@ -9,6 +9,7 @@ public class MoveBehaviour : GenericBehaviour
     public string jumpButton = "Jump";
     public float jumpHeight = 1.5f;
     public float jumpInertialForce = 10f; //慣性力量
+    public float animSpeed = 1.0f;
 
     private float speed, speedSeeker;
     private int jumpBool;
@@ -24,6 +25,7 @@ public class MoveBehaviour : GenericBehaviour
     {
         jumpBool = Animator.StringToHash("Jump");
         groundedBool = Animator.StringToHash("Grounded");
+        GetComponent<Animator>().speed = animSpeed;
         
         // 安全檢查
         if (behaviourManager != null && behaviourManager.GetAnim != null)

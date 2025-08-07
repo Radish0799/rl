@@ -1,0 +1,38 @@
+{
+    "Hallway": {
+        "checkpoints": [
+            {
+                "steps": 10499960,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-10499960.onnx",
+                "reward": 0.804444443848398,
+                "creation_time": 1754582750.7431405,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-10499960.pt"
+                ]
+            },
+            {
+                "steps": 10630578,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-10630578.onnx",
+                "reward": 0.8709999993443489,
+                "creation_time": 1754583118.844325,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-10630578.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10630578,
+            "file_path": "results\\Hallway\\Hallway.onnx",
+            "reward": 0.8709999993443489,
+            "creation_time": 1754583118.844325,
+            "auxillary_file_paths": [
+                "results\\Hallway\\Hallway\\Hallway-10630578.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

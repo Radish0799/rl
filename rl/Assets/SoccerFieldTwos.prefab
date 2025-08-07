@@ -1948,10 +1948,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639210866556158851}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 50
-  m_Drag: 3
-  m_AngularDrag: 0.05
+  m_LinearDamping: 3
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2070,6 +2070,7 @@ MonoBehaviour:
   jumpButton: Jump
   jumpHeight: 1.5
   jumpInertialForce: 10
+  animSpeed: 1
 --- !u!114 &3486544393367547543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5441,7 +5442,7 @@ GameObject:
   - component: {fileID: 9112517795731790162}
   m_Layer: 0
   m_Name: Purple
-  m_TagString: blueAgent
+  m_TagString: purpleAgent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5470,10 +5471,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588073341785607201}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 60
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -5592,6 +5593,7 @@ MonoBehaviour:
   jumpButton: Jump
   jumpHeight: 1.5
   jumpInertialForce: 10
+  animSpeed: 1
 --- !u!114 &582557004614385915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9042,10 +9044,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2975442936445190618}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 3
-  m_Drag: 1
-  m_AngularDrag: 1
+  m_LinearDamping: 1
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -10576,7 +10578,7 @@ GameObject:
   - component: {fileID: 9101191118966154726}
   m_Layer: 0
   m_Name: Purple (1)
-  m_TagString: blueAgent
+  m_TagString: purpleAgent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10605,10 +10607,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3322560754513292454}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 60
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -10727,6 +10729,7 @@ MonoBehaviour:
   jumpButton: Jump
   jumpHeight: 1.5
   jumpInertialForce: 10
+  animSpeed: 1
 --- !u!114 &886189292399134037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18811,10 +18814,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5697585426258775317}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 60
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -18933,6 +18936,7 @@ MonoBehaviour:
   jumpButton: Jump
   jumpHeight: 1.5
   jumpInertialForce: 10
+  animSpeed: 1
 --- !u!114 &1297739925671259498
 MonoBehaviour:
   m_ObjectHideFlags: 0
