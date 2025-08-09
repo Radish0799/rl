@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077babb8af8df0844b289edef4c8db86, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 507eee5d6950c6e43bc1763286cd2fbf, type: 3}
+  title: 3rd Person Controller + Fly Mode
+  sections:
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: Thank you for acquiring the <b>3rd Person Controller + Fly Mode</b> for
+      the <i>Unity 3D</i> engine! This is your <b>free</b> starter pack to  create
+      your <i>third-person</i> game!
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: 
+    linkText: An editor's choice must have asset!
+    url: https://assetstore.unity.com/lists/must-have-assets-25777
+    asset: 
+  - heading: Features
+    text: 
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: "\u2611 Scripts for the player actions, containing basic <b>locomotion</b>
+      (<i>walk</i>, <i>run</i>, <i>sprint</i>, <i>jump</i>),<i>aim</i> & <i>strafe</i>,
+      and an <b>extra</b> <i>fly</i> mode."
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: "\u2611 Features a <i>mecanim animator controller</i>, with <b>animations</b>
+      for all behaviours , and a dynamic <b>third person camera</b> with <i>collision
+      detection</i>."
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: "\u2611 Ready to use with the Xbox Controller!"
+    linkText: 
+    url: 
+    asset: 
+  - heading: Get Started
+    text: 
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: 
+    linkText: How to setup on a custom project (video)
+    url: https://www.youtube.com/watch?v=D7Ogk4DzsRI
+    asset: 
+  - heading: 
+    text: 
+    linkText: How to setup on a custom project (article)
+    url: https://viniciusmarques.cods.dev/thirdperson/
+    asset: 
+  - heading: More Information
+    text: 
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: 
+    linkText: <b>README</b>
+    url: 
+    asset: 56efd77465500044fa2b957f531762eb
+  - heading: 
+    text: 
+    linkText: Check out the <b>mobile</b> version
+    url: http://u3d.as/Yep
+    asset: 
+  - heading: Upgrade your experience
+    text: 
+    linkText: 
+    url: 
+    asset: 
+  - heading: 
+    text: 
+    linkText: Get the <b>Third Person Shooter Bundle</b>
+    url: http://u3d.as/1LDc
+    asset: 
+  - heading: 
+    text: 
+    linkText: Get the <b>Enemy AI</b>
+    url: http://u3d.as/1MpM
+    asset: 
+  - heading: 
+    text: 
+    linkText: Get the <b>Cover + Shooting System</b>
+    url: http://u3d.as/X6v
+    asset: 
+  loadedLayout: 1

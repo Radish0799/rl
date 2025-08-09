@@ -1,0 +1,65 @@
+{
+    "Hallway": {
+        "checkpoints": [
+            {
+                "steps": 2499962,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-2499962.onnx",
+                "reward": 0.7460000067949295,
+                "creation_time": 1754677818.7639542,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-2499962.pt"
+                ]
+            },
+            {
+                "steps": 2999987,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-2999987.onnx",
+                "reward": null,
+                "creation_time": 1754678950.5592926,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-2999987.pt"
+                ]
+            },
+            {
+                "steps": 3499978,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-3499978.onnx",
+                "reward": -0.31166667863726616,
+                "creation_time": 1754680099.7203417,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-3499978.pt"
+                ]
+            },
+            {
+                "steps": 3999940,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-3999940.onnx",
+                "reward": null,
+                "creation_time": 1754681281.6296668,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-3999940.pt"
+                ]
+            },
+            {
+                "steps": 4242934,
+                "file_path": "results\\Hallway\\Hallway\\Hallway-4242934.onnx",
+                "reward": -0.36040001213550565,
+                "creation_time": 1754681855.4268184,
+                "auxillary_file_paths": [
+                    "results\\Hallway\\Hallway\\Hallway-4242934.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4242934,
+            "file_path": "results\\Hallway\\Hallway.onnx",
+            "reward": -0.36040001213550565,
+            "creation_time": 1754681855.4268184,
+            "auxillary_file_paths": [
+                "results\\Hallway\\Hallway\\Hallway-4242934.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
